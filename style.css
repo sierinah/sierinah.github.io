@@ -1,0 +1,137 @@
+* {
+	font-family: Courier;
+}
+
+body {
+	background: #fff url(images/binding_light.png) repeat top left;
+}
+
+
+.logo {
+	position: fixed;
+	z-index: 1;
+	top: 0px;
+	left: 0;
+	right: 0;
+	width: 42px;
+	height: 42px;
+	background-color: #18B68E;
+}
+
+.ming {
+	cursor: pointer;
+	position: relative;
+	left: 0;
+	top: 0;
+	right: 0;
+	width: 42px;
+	height: 42px;
+}
+
+.card {
+	left: 0px;
+	right: 0px;
+	top: 0;
+	margin: 50px auto 0px auto;
+	width: 320px;
+	background: white;
+	box-shadow: 0 0 5px rgb(42,42,42);
+	-webkit-box-shadow: 0 0 5px rgb(42,42,42);
+ 	-moz-box-shadow: 0 0 5px rgb(42,42,42);
+}
+
+.face {
+	position: relative;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 320px;
+}
+
+
+.hr {
+	margin: 0 auto;
+	padding: 0px;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	background-color: #242424;
+}
+
+.name {
+	width: 100%;
+	margin: 0px auto;
+	height: 38px;
+}
+
+.myName {
+	float: left;
+	margin: 6px 10px 4px 10px;
+	font-size: 25px;
+}
+
+.follow,
+.following {
+	cursor: pointer;
+	border: solid 2px #18B68E;
+	border-radius: 2px;
+	height: 20px;
+	font-size: 12px;
+	float: right;
+	padding: 4px 4px 0px 4px;
+	margin: 5px 10px;
+}
+
+.following {
+	background-color: #18B68E;
+	color: white;
+}
+
+.following:hover {
+	color: #535353;
+}
+
+.intro {
+	left: 0;
+	right: 0;
+	margin: 0px auto;
+	padding: 0px ;
+}
+
+.introInfo {
+	font-family: 微软雅黑;
+	padding: 5px 20px 30px 20px;
+}
+
+.footer {
+	display: none;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 25px;
+}
+
+ul.info {
+	float: right;
+	margin: auto 10px auto 10px;
+}
+
+li#infoLink {
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 11px;
+	display: inline-block;
+	margin: 2px 3px 4px 3px;
+	padding: 1px 2px 1px 2px;
+	color: #272727;
+	opacity: .618;
+}
+
+li#infoLink:hover {
+	margin-bottom: 2px;
+	border-bottom: solid 2px #18B68E;
+	color: white;
+}
